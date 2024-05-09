@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Projekts</title>
+</head>
+<body>
+  <section class="main">
+    <h1>Generate a project idea</h1>
+    <form id="myForm">
+      <button type="submit" class="dice">
+        <img src="images/dice.svg" alt="Dice image">
+      </button>
+      <div class="difficultyWrapper">
+        <p id="displayItem"></p>
+
+        <input type="radio" name="difficulty" class="difficultyRadio" id="easyDif" checked>
+        <label class="difOption" for="easyDif">
+          Easy
+        </label>
+
+        <input type="radio" name="difficulty" class="difficultyRadio" id="intermediateDif">
+        <label class="difOption" for="intermediateDif">
+          Intermediate
+        </label>
+
+        <input type="radio" name="difficulty" class="difficultyRadio" id="hardDif">
+        <label class="difOption" for="hardDif">
+          Hard
+        </label>
+
+        <input type="radio" name="difficulty" class="difficultyRadio" id="extremeDif">
+        <label class="difOption" for="extremeDif">
+          Extreme
+        </label>
+      </div>
+    </form>
+  </section>
+  
+  <footer>
+    <!-- <a target="_blank" href="https://icons8.com/icon/569/dice">Dice</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
